@@ -2,7 +2,7 @@
 
 ### BASICS
 
-+ Universe: A population of multichannel households per country to which sample is weighted and balanced to.
++ Universe: A population of multichannel households to which sample is weighted and balanced to.
   + Croatia: 750k
   + Slovenia: 691k
 + Base Time Unit (BTU): 1 minute, all calculations are minute based
@@ -28,7 +28,7 @@ if the threshold is reached (ie. if viewing is longer than 5 seconds).
 ##### Rating (RTG)
 Rating is calculated as a proportion of active households within their
 relevant universe. As base time unit is one minute, base unit of rating is average minute
-rating, a number of HHs tuned to a given minute. All intervals that are lower than one minute will inherit the rating of the minute they start in.
+rating, a number of HHs tuned to a given minute. All intervals, contetnt and ads that are shorter than one minute will inherit the rating of the minute they start in.
 
 ##### Share (SHR)
 Is defined as a fraction of rating over HUT rating.
@@ -46,4 +46,4 @@ given content
 ##### Average duration
 Is defined as the average times that those that have watched the content in
 question spent viewing it. It is calculated as `[Active Households Total
-Duration / Households]`
+Duration / Active Households]`
