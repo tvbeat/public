@@ -1,10 +1,10 @@
 # TVbeat Lexicon
 
-## BASICS
+## Basics
 
-+ Universe: A population of multichannel households to which sample is weighted and balanced to.
-  + Croatia: 750k
-  + Slovenia: 691k
++ **Universe**: A population of multichannel households to which sample is weighted and balanced to.
+  * Croatia: 750k
+  * Slovenia: 691k
 + **BTU** - Base Time Unit: 1 minute, all calculations are minute based
 + **HUT** - Households using TV: is defined as a sum of all viewing for a given time period
 
@@ -49,5 +49,5 @@ question spent viewing it.
 
 It is calculated as:
 ```
-Active Households Total Duration **/** Active Households
+Active Households Total Duration / Active Households
 ```
