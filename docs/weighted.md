@@ -51,3 +51,15 @@ It is calculated as:
 ```ruby
  Active Households Total Duration / Active Households
 ```
+
+## Filters
+
+some description
+
+List of available filters: 
++ Channel
++ Content
++ Device Types
++ Modes
++ Packages
++ Regions
