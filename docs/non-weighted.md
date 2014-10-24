@@ -20,7 +20,7 @@ relevant universe. As base time unit is one minute, base unit of rating is avera
 rating, a number of HHs tuned to a given minute. All intervals, contetnt and ads that are shorter than one minute will inherit the rating of the minute they start in.
 
 ### **Share (SHR)**
-Is defined as a fraction of rating over HUT rating.
+Is defined as a fraction of rating over SUT rating.
 
 ### **Subscibers (#) and Subscribers (%)**
 Is defined as a number of unique Subscribers that have viewed a specified time
