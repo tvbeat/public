@@ -19,8 +19,8 @@ characteristics: region and number of devices
 
 ## Zap interval
 Is a minimum time interval that a HH has to be tuned to a given channel in
-order for that viewing to be attributed to said channel. Channel
-persistence is 5 seconds, and these seconds are counted into total viewing
+order for that viewing to be attributed to said channel. Zap
+interval is 5 seconds, and these seconds are counted into total viewing
 if the threshold is reached (ie. if viewing is longer than 5 seconds).
 
 ## Metrics
