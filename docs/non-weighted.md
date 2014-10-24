@@ -7,9 +7,9 @@
 + **SUT** - Subscribers using TV: is defined as a sum of all viewing for a given time period
 
 ## Zap interval
-Is a minimum time interval that a HH has to be tuned to a given channel in
-order for that viewing to be attributed to said channel. Channel
-persistence is 5 seconds, and these seconds are counted into total viewing
+Is a minimum time interval that a Subscriber has to be tuned to a given channel in
+order for that viewing to be attributed to said channel. Zap
+interval is 5 seconds, and these seconds are counted into total viewing
 if the threshold is reached (ie. if viewing is longer than 5 seconds).
 
 ## Metrics
@@ -25,7 +25,7 @@ period (X) of a given channel over a another, broader specified time period
 be modified and is set to ONE non consecutive minute. If a subscriber is present for a duration that is longer than Zap interval but shorter than one minute only a fraction of that subscriber is counted towards Subscribers (#/%), meaning that a Subscriber has to accumulate a full minute of viewing during Y in order for it to be counted fully.
 
 ### **Subscriber Share**
-Is NUmber ofs ubscribers expressed as a percentage of **All SUbscribers**
+Is Number of subscribers expressed as a percentage of **All Subscribers**
 
 ### **Total duration**
 Is defined as the sum of durations of all subscribers that have watched
