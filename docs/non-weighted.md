@@ -2,7 +2,7 @@
 
 ## Basics
 
-+ **All subscribers***: All active subscribers of a given platform, by default a subscriber is considered to be inactive after there has been activity on any of his devices
++ **All subscribers**: All active subscribers of a given platform, by default a subscriber is considered to be inactive after there has been activity on any of his devices
 + **BTU** - Base Time Unit: 1 minute, all calculations are minute based
 + **SUT** - Subscribers using TV: is defined as a sum of all viewing for a given time period
 
