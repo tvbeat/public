@@ -40,7 +40,7 @@ It is calculated as:
 
 ## Filters
 
-some description
+The user can slice and dice the entire viewership with specific filters such as Channel, Region, Mode etc. Filtering is possible in Segmentation as well as in all Overviews. In Live we also have channel filters. 
 
 List of available filters: 
 + Channel
@@ -49,3 +49,6 @@ List of available filters:
 + Modes
 + Packages
 + Regions
+
+## Compare (Segmentation)
+The Compare feature enables the user to define by which filter they want to compare/display the data in the chart. If for example the user chose they want to compare their data by Device, they will get the results broken down by all available devices.
