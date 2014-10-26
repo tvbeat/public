@@ -65,4 +65,4 @@ List of available filters:
 + Regions
 
 ## Compare (Segmentation)
-The Compare feature enables the user to define by which filter they want to compare/display the data in the chart. If for example the user chose they want to compare their data by Device, they will get the results broken down by all available devices.
+The Compare feature enables the user to define by which filter they want to compare/display the data in the chart and table. If for example the user chose they want to compare their data by Device, they will get the results broken down by all available devices.
