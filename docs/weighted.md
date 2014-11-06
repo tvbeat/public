@@ -11,7 +11,7 @@
 ## Weighting and weight distribution
 
 Household data is weighted (RIM weighting) and expanded platforms subscriber data.
-Weights are applied at subscriber level. Each device is asigned an internal
+Weights are applied at subscriber level. Each device is assigned an internal
 weight within a household, this weight is based on the amount of viewing
 on the specific device. Household weight is than distributed among devices
 based on this internal weight. RIM weighting is currently done on two
@@ -28,7 +28,7 @@ if the threshold is reached (ie. if viewing is longer than 5 seconds).
 ### **Rating (RTG)**
 Rating is calculated as a proportion of active households within their
 relevant universe. As base time unit is one minute, base unit of rating is average minute
-rating, a number of HHs tuned to a given minute. All intervals, contetnt and ads that are shorter than one minute will inherit the rating of the minute they start in.
+rating, a number of HHs tuned to a given minute. All intervals, content and ads that are shorter than one minute will inherit the rating of the minute they start in.
 
 ### **Share (SHR)**
 Is defined as a fraction of rating over HUT rating.
@@ -65,4 +65,4 @@ List of available filters:
 + Regions
 
 ## Compare (Segmentation)
-The Compare feature enables the user to define by which filter they want to compare/display the data in the chart and table. If for example the user chose they want to compare their data by Device, they will get the results broken down by all available devices.
+The Compare feature enables the user to define by which filter they want to compare/display the data in the chart and table. For example, if the user chose they want to compare their data by device, they will get the results broken down by all available devices.
