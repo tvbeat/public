@@ -28,7 +28,10 @@ if the threshold is reached (ie. if viewing is longer than 5 seconds).
 ### **Rating (RTG)**
 Rating is calculated as a proportion of active households within their
 relevant universe. As base time unit is one minute, base unit of rating is average minute
-rating, a number of HHs tuned to a given minute. All intervals, content and ads that are shorter than one minute will inherit the rating of the minute they start in.
+rating, a number of HHs tuned to a given minute. 
+
+It is calculated as:
+``` Total duration / duration or emission / universe ```
 
 ### **Share (SHR)**
 Is defined as a fraction of rating over HUT rating.
