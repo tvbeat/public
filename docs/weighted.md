@@ -37,10 +37,7 @@ It is calculated as:
 Is defined as a fraction of rating over HUT rating.
 
 ### **Reach (RCH)**
-Is defined as a number of unique HHs that have viewed a specified time
-period (X) of a given channel over a another, broader specified time period
-(Y). X can be consecutive, but does not have to be. At the moment X cannot
-be modified and is set to ONE non consecutive minute. If a household is present for a duration that is longer than Zap interval but shorter than one minute only a fraction of that household is counted towards RCH, meaning that a household has to accumulate a full minute of viewing during Y in order for it to be counted fully.
+Is defined as a number of unique HHs that have viewed a specified time period (5 sec) of a given channel over another, broader specified time period. 
 
 ### **Total duration**
 Is defined as the sum of durations of all households that have watched
@@ -51,9 +48,7 @@ Is defined as the average times that those that have watched the content in
 question spent viewing it. 
 
 It is calculated as:
-```
-Total duration / Reach
-```
+``` Total duration / Reach ```
 
 ## Filters
 
