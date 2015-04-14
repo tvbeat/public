@@ -6,7 +6,7 @@
    * Croatia: 750k
    * Slovenia: 691k
 + **BTU** - Base Time Unit: 1 minute, all calculations are minute based
-+ **HUT** - Households using TV: is defined as a sum of all viewing for a given time period
++ **HUT** - Households using TV: number of television homes using one or more television sets during the a specified time period.
 
 ## Weighting and weight distribution
 
@@ -39,28 +39,11 @@ Is defined as a fraction of rating over HUT rating.
 ### **Reach (RCH)**
 Is defined as a number of unique HHs that have viewed a specified time period (5 sec) of a given channel over another, broader specified time period. 
 
-### **Total duration**
-Is defined as the sum of durations of all households that have watched
-given content
-
 ### **Average duration**
-Is defined as the average times that those that have watched the content in
-question spent viewing it. 
+Is defined as the average times that those that have watched the content in question spent viewing it. Average duration (value in the table) is adjusted for the interval selected in the dashboard (minute, hour, day, total). To illustrate, if selected interval is one minute, than average duration value in the table represents average MINUTE duration for the selected period, same goes for all intervals. For total interval, average duration represents number of minutes viewed per device for the entire selected period.
 
 It is calculated as:
 ``` Total duration / Reach ```
 
-## Filters
+All minute values are presented in decimal number format and calculated like this: 72 seconds are presented as 1.2 min (72/60).
 
-The user can slice and dice the entire viewership with specific filters such as Channel, Region, Mode etc. Filtering is possible in Segmentation as well as in all Overviews. In Live we also have channel filters. 
-
-List of available filters: 
-+ Channel
-+ Content
-+ Device Types
-+ Modes
-+ Packages
-+ Regions
-
-## Compare (Segmentation)
-The Compare feature enables the user to define by which filter they want to compare/display the data in the chart and table. For example, if the user chose they want to compare their data by device, they will get the results broken down by all available devices.
