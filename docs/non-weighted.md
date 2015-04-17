@@ -43,8 +43,6 @@ It is calculated as:
 
 ### **Average Duration ALL**
 Is defined as the average time that all subscribers have spent watching the content or interval in question.
-It is calculated as: 
-Total duration / Universe
 It is calculated as:
 ``` Total duration / Universe (#) ```
 
