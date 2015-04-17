@@ -26,6 +26,11 @@ Is Number of subscribers expressed as a percentage of **All Subscribers**
 ### **Share (SHR)**
 is defined as a fraction of rating of a specified timeslot/show/channel over total rating.
 
+### **Rating (RTG)**
+Rating is calculated as a proportion of active subscribers within their relevant universe. As base time unit is one minute, base unit of rating is average minute rating, a number of subscribers tuned to a given minute.
+
+It is calculated as: Total duration / duration or emission / universe
+
 ### **Total duration (min.)**
 Is defined as the sum of durations of all subscribers that have watched
 given content or interval.
