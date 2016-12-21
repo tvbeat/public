@@ -16,10 +16,7 @@ based on this internal weight. RIM weighting is currently done on two
 characteristics: region and number of devices
 
 ## Zap interval
-Is a minimum time interval that a HH has to be tuned to a given channel in
-order for that viewing to be attributed to said channel. Zap
-interval is 5 seconds, and these seconds are counted into total viewing
-if the threshold is reached (ie. if viewing is longer than 5 seconds).
+Is a minimum time interval that a HH has to be tuned to a given channel in order for that viewing to be attributed to said channel. Zap interval is 15 seconds, and these seconds are counted into total viewing if the threshold is reached (ie. if viewing is longer than 15 seconds).
 
 ## Metrics
 
@@ -35,7 +32,7 @@ It is calculated as:
 Is defined as a fraction of rating over HUT rating.
 
 ### **Reach (RCH)**
-Is defined as a number of unique HHs that have viewed a specified time period (5 sec) of a given channel over another, broader specified time period. 
+Is defined as a number of unique HHs that have viewed a specified time period (15 sec) of a given channel over another, broader specified time period.
 
 ### **Average duration**
 Is defined as the average times that those that have watched the content in question spent viewing it. Average duration (value in the table) is adjusted for the interval selected in the dashboard (minute, hour, day, total). To illustrate, if selected interval is one minute, than average duration value in the table represents average MINUTE duration for the selected period, same goes for all intervals. For total interval, average duration represents number of minutes viewed per device for the entire selected period.
