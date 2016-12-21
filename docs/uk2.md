@@ -2,9 +2,7 @@
 
 ## Basics
 
-+ **Universe**: A population of multichannel households to which sample is weighted and balanced to.
-   * Croatia: 750k
-   * Slovenia: 691k
++ **Universe**: A population of multichannel households to which sample is weighted and balanced to. Universe for UK/Freesat is 200.000 households.
 + **BTU** - Base Time Unit: 1 minute, all calculations are minute based
 + **HUT** - Households using TV: number of television homes using one or more television sets during the a specified time period.
 
