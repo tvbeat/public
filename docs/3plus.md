@@ -6,7 +6,7 @@
 By default a subscriber is considered to be inactive after there hasn't been activity on any of the subscribers' devices for 25 consecutive days.
 + **BTU** - Base Time Unit: 1 minute, all calculations are minute based
 + **HUT** - Households using TV is the number of television homes using one or more television sets during the specified time period. If more than one device in the same HUT is consuming content at the same time, viewing of each device is divided by the number of active devices in order to get viewing of the entire HUT.
-+ ** Devices (DEV)** - are defined as all devices capable of receiving content from providers and are further subdivided in STBs and other (mobile phones, tablets, smart TVs, etc...)
++ **Devices (DEV)** - are defined as all devices capable of receiving content from providers and are further subdivided in STBs and other (mobile phones, tablets, smart TVs, etc...)
 + **Channel persistence (Zap interval)** - is a minimum time interval that a unit has to be tuned to a given channel in order for that viewing to be attributed to said channel. Channel persistence is 5 seconds, and these seconds are counted into total viewing if the threshold is reached (ie. if viewing is longer than 5 seconds). 
 
 ## Metrics
