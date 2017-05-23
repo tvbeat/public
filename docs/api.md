@@ -173,8 +173,8 @@ Where:
     service = 'ae'
     host = 'api.tvbeat.com'
     dataset = 'sample'
-    uri = '/' + dataset + '/dimension_search'
-    endpoint = 'http://' + host + uri
+    uri = '/' + dataset + '/dimensions_search'
+    endpoint = 'https://' + host + uri
 
     request_parameters = '''
         {
