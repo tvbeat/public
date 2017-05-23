@@ -17,7 +17,7 @@ Subscribers Rating is calculated as a proportion of active subscribers within Al
 It is calculated as:
 ``` Total duration / duration or emission / universe ```
 
-### **Subscibers (#) - Number of subscribers**
+### **Subscribers (#) - Number of subscribers**
 Is defined as a number of unique Subscribers that have viewed a specified time period (15 sec) of a given channel over another, broader specified time period.
 
 ### **Subscribers %**
