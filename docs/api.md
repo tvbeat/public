@@ -365,7 +365,7 @@ Where:
 - *dimension\_name* is the identifier of the dimension (the `key` within the
   structure returned by the "dimensions" query);
 - *search\_string* constrains the query to results containing only this string;
-- *start* and *stop* are integer UNIX timestamps which an be used to optionally
+- *start* and *stop* are integer UNIX timestamps which can be used to optionally
   constrain the results to only include values within a certain time span;
 - *limit* is an optional parameter limiting the number of results returned.
 
