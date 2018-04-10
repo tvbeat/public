@@ -18,3 +18,4 @@ This upgrade includes some visual improvements to the first column view when com
 [ GIF 2 - Start by selecting a Base segment, Then 2 predefined audience segments, after that scroll around and then switch to Chart view and show off the charts ]
 
 Additionally we added a Chart view where you can view your comparison in two charts. The first charts provides an index comparison of the selected audience segments. The second chart allows you to select a specific item and compare it on selected audience segments.
+---
