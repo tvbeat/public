@@ -3,7 +3,7 @@
 ## Audience builder & Indexing update
 *10 April, 2018*
 
-#### Audience Builder
+### Audience Builder
 The **Audience Builder** feature is an upgrade from the existing target audience bar throughout the TVbeat dashboard. The purpose of this upgrade is to enable a cleaner and easier selection of existing as well as a more detailed and expansive creation of audience segments. Now you can build, save, edit custom audience segments and use them throughout the TVbeat dashboard.
 
 ![Audience Builder Example](http://g.recordit.co/879U9cNK1p.gif)
@@ -19,4 +19,4 @@ This upgrade includes some visual improvements to the first column view when com
 
 Additionally we added a Chart view where you can view your comparison in two charts. The first charts provides an index comparison of the selected audience segments. The second chart allows you to select a specific item and compare it on selected audience segments.
 
----
+<hr />
