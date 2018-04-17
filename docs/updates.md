@@ -25,6 +25,6 @@ The latest upgrade includes:
   * Chart 1 provides an index comparison of the selected audience segments. 
   * Chart 2 allows you to select a specific item and compare it on selected audience segments.
 
-For any queries, questions or additional information, please contact at [product@tvbeat.com](mailto:product@tvbeat.com).
+For any queries, questions or additional information, please contact at **support@tvbeat.com**.
 
 <hr />
