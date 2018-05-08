@@ -3,9 +3,7 @@
 This documentation provides a brief tutorial on how to use the features and tools on the TVbeat dashboard. 
 
 ## Audience builder tutorial
-The **Audience Builder** enables the users to create and manage, simple and/or detailed audience segments. In the audience segments users are
-able to filter out a specific set of subscribers. Once an audience segment is created, the users are able to use it though out the dashboard to
-define their target audience.
+The **Audience Builder** enables the users to create and manage, simple and/or detailed audience segments. In the audience segments users are able to filter out a specific set of subscribers. Once an audience segment is created, the users are able to use it though out the dashboard to define their target audience.
 
 Let's go thorugh an example of creating, using and managing audience segments.
 
@@ -35,17 +33,20 @@ On the bottom we have the Save, Cancel and Export buttons. By clicking on the **
 
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/audience-builder-default.png)
 
-Lets create simple audience segment called **Young techies**. We want a Male audience, aged between 25-35 who are interested in Technology.  
+Lets create simple audience segment called **Young techies**. We want a Male audience, aged between 25-35 who are interested in Technology.
+
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/young-techies-example.png)
 NOTE: The filters may differ depending on what dimensions a specific dataset provides.
 
 The example above is a single line audience segment but we can easily add more complexity by adding multiple lines with AND/OR conditions. So for example we want to see people who watched **Big Bang Theory** episode last week and also watched the newest episode this week. With this example we would be able to see the retention of viewers from the last episode to the new one.
+
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/big-bang-theory-example.png)
 
 After we created our Audience segment we can **Save** it and it will redirect us to the tool where we came from. In this case it would be Segmentation. We have the audience segment that we created automatically selected in the green Audience bar.
 
 ### Importing a subscriber list
 We can import a list of subscribers by uploading a "**.csv**" or "**.txt**" file. This is done in the same manner that we described in the example above. When we are in the Audience Builder creation tool we switch to **Import subscriber list** in the top tab menu. We are presented with an interface that allows us to upload the desired file.
+
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/import-subs.gif)
 
 ### Audience segment picker
@@ -66,13 +67,14 @@ When we click on this we are presented with **list** of all of our Audience segm
 
 ## Indexing tutorial
 The Indexing Report allows you to analyse strongly or poorly performing data points such as channel or program against a base segment.
+
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/audience-builder-list.gif)
 
-The first step when analysing audience segments is to create a Base Segment. The base segment defines the values and the metric that we will compare further audience segment to. Clicking on the "** Add Base Segment**" button will open a window where we can select the parameters for out Base segment. We can add an Audience segment, Compare dimensions(by which dimension we want to breakdown the data) and additional filters. 
+The first step when analysing audience segments is to create a Base Segment. The base segment defines the values and the metric that we will compare further audience segment to. Clicking on the "**Add Base Segment**" button will open a window where we can select the parameters for out Base segment. We can add an Audience segment, Compare dimensions(by which dimension we want to breakdown the data) and additional filters. 
 
 After we defined the Base segment we can now start adding multiple **Audience segments** which we will compare against the Base. By clicking the "**Add new Audience segment** button we are presented with the **Audience picker menu**. We can search and select from a list of existing Audience segments or we can create a new one. When creating a new one we will be redirected to the Audience builder creation tool described in the Audience builder tutorial.
 
-When we have our Base segment and multiple Audience segments selected we can see the Metric and Index numbers and compare the difference against the Base segment. We can sort by any column by clicking on the index or metric name. We can also change the metric by which we index in the top right bar **Metric picker".
+When we have our Base segment and multiple Audience segments selected, we can see the Metric and Index numbers and compare the difference against the Base segment. We can sort by any column by clicking on the index or metric name. We can also change the metric by which we index in the(top right bar) **Metric picker**.
 
 At the top of each column we can either select different paramters or audience segment by clicking on the **Edit** button (pencil icon). The **Remove** button in the audience segments removes the specific audience column. By hovering on the title area of each column we can see the Audience size and summary in a tooltip.
 
@@ -86,7 +88,7 @@ In the middle of the top bar we can see a menu with two icons. We can switch bet
 **Chart 1** - displays the comparison of audience segments index performance.
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/index-viz1.png)
 
-* **Chart 2** - displays the comparison of the same audience segments for a specific dimension values. For example: We want to compare the audience segments on the channel BBC One
+**Chart 2** - displays the comparison of the same audience segments for a specific dimension values. For example: We want to compare the audience segments on the channel BBC One
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/index-viz2.png)
 
 We can also **Export** these charts in the same top right **More** menu as previously mentioned.
