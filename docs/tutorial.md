@@ -71,7 +71,7 @@ When we click on this we are presented with **list** of all of our Audience segm
 ## Indexing tutorial
 The Indexing Report allows you to analyse strongly or poorly performing data points such as channel or program against a base segment.
 
-![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/audience-builder-list.gif)
+![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/index.gif)
 
 The first step when analysing audience segments is to create a Base Segment. The base segment defines the values and the metric that we will compare further audience segment to. Clicking on the "**Add Base Segment**" button will open a window where we can select the parameters for out Base segment. We can add an Audience segment, Compare dimensions(by which dimension we want to breakdown the data) and additional filters. 
 
