@@ -1,6 +1,8 @@
-# Tutorial
+# Tutorials
 
 This documentation provides a brief tutorial on how to use the features and tools on the TVbeat dashboard. 
+
+----
 
 ## Audience builder tutorial
 The **Audience Builder** enables the users to create and manage, simple and/or detailed audience segments. In the audience segments users are able to filter out a specific set of subscribers. Once an audience segment is created, the users are able to use it though out the dashboard to define their target audience.
@@ -62,6 +64,7 @@ While we can create and manage our audience segments through the mentioned Audie
 When we click on this we are presented with **list** of all of our Audience segments in a table. Here we can view, search, create, edit and delete our Audience segments. When creating and editing audience segment from this view we will be redirected back to this list after we save our changes.
 
 ![Audience Builder Default](https://raw.githubusercontent.com/tvbeat/public/master/docs/img/audience-builder-list.gif)
+
 
 ----
 
