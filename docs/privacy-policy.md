@@ -2,14 +2,18 @@
 
 ## A. Introduction
 This privacy policy applies only to usage of the TVbeat web-based dashboard and direct interactions between TVbeat and Dashboard users (collectively ‘services’), in which TVbeat acts as a data controller. This privacy policy does not cover TVbeat’s obligations as a data processor, which are covered elsewhere in TVbeat’s policy documentation. 
-This does not represent the privacy policies of third party processes or applications integrated within these services (collectively ‘third party services’). 
+
+This does not represent the privacy policies of third party processes or applications integrated within these services (collectively ‘third party services’).
+
 Any questions surrounding this documentation, or any other aspect of TVbeat’s data safety and security policies should be directed to dpo@tvbeat.com, you may also with to consult the appointed DPO of your own company for advice. 
 
 ## B. Data that TVbeat directly collects
 The client data collected by TVbeat in relation to the services is split between: Account Data, Communications Data and Dashboard Usage data. 
+
 The TVbeat web based dashboard use "cookies" and similar technologies, including HTML5 local storage. A cookie is a file stored on your device that may be used to identify an individual as a unique user by storing certain personal preferences and user data. TVbeat uses cookies and other technologies to identify your device, identify authorized users of the TVbeat dashboard and similar Services monitoring activities.
 
 TVbeat may also use web beacons, small graphic images or other web programming code (also known as "1x1 GIFs" or "clear GIFs"), which may be included in our web pages and e-mail messages. Web beacons may be invisible to you, but any electronic image or other web programming code inserted into a web page or e-mail can act as a web beacon. Web beacons or similar technologies may be used for a number of purposes, including, without limitation, to count visitors to the TVbeat Dashboard, to monitor how users navigate the Services, to count how many e-mails that were sent were actually opened or to count how many particular articles or links were actually viewed.
+
 TVbeat may also use embedded scripts in connection with the provision of its Services. "Embedded scripts" are programming code designed to collect information about your interactions with a website, such as the links you click on, and may assist our customers in providing us with information used to provide the Services. The code is temporarily downloaded onto your device from our web server, our customer's web server, or a third party service provider, is active only while you are connected to the website containing the embedded script, and is deactivated or deleted thereafter.
 
 1. **Account Data** - Account data comprises the following information:
@@ -35,8 +39,8 @@ Account data is used to fulfil the following essential contractual obligations:
 7. To verify that TVbeat has delivered on its contractual obligations
 
 There is no obligation to provide any of the data relating to the above, however it will impact the availability of TVbeat services to the individual(s) or client concerned should some or all of it not be provided. 
-Dashboard usage data is used to inform updates and new releases to the TVbeat services in the following ways:
 
+Dashboard usage data is used to inform updates and new releases to the TVbeat services in the following ways:
 1. Providing general insight on how and to what extent dashboard services are used.
 2. Monitoring releases and uptake of new features.
 3. Understanding dashboard usage on a per client level
