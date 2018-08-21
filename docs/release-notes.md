@@ -1,5 +1,15 @@
 # TVbeat Dashboard Release notes
 
+## 106.0.1 Hotfix
+21 Aug
+
+### Bugs/Improvements
+* Fixed bug where zero values didnt appear in line/bar charts
+* Fixed bug where filters with a value of which ID was 0, didn't appear in the UI
+* Fixed caching by adding global filter rules to Overview Query Generator
+
+----
+
 ## Cycle 106
 1 - 31 July, 2018
 
