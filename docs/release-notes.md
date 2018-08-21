@@ -1,7 +1,7 @@
 # TVbeat Dashboard Release notes
 
 ## 106.0.1 Hotfix
-21 Aug
+21 Aug, 2018
 
 ### Bugs/Improvements
 * Fixed bug where zero values didnt appear in line/bar charts
