@@ -1,5 +1,36 @@
 # TVbeat Dashboard Release notes
 
+## 107 release
+1 - 31 Aug, 2018
+
+### Features
+* Export upgrades
+  * Added ability to export multi-query charts
+  * Updated exporting interface in general.
+* Updated Mixpanel events
+* Redesigned the Bookmark window and added the ability to search through bookmarks
+* Added an endpoint that points to the documentation page
+* Refactored unit tests for different parts of the dashboard
+
+### Bugs/Improvements
+* Fixed item matching for multi-query charts
+* Fixed empty exports when exporting the Fill Rate % metric
+* Fixed the issue where dimension values with a zero ID were not being rendered
+* Fixed the issue where zero values were not displayed in the chart
+* Fixed an issue where email were not sent after a longer export
+* Improved saving of user groups in the database
+
+----
+
+## 106.0.2 Hotfix
+29 Aug, 2018
+
+### Bugs/Improvements
+* Caching fix: removed date range text that was occurring in overview generator queries
+* Caching fix: fixed bug where overview generator didn't set proper default metrics for queries.
+
+----
+
 ## 106.0.1 Hotfix
 21 Aug, 2018
 
