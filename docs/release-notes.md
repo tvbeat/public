@@ -1,5 +1,38 @@
 # TVbeat Dashboard Release notes
 
+## 108 release
+1 Sep - 9 Oct, 2018
+
+### Features
+* Version number in main menu picker
+* Options button
+  * Option to show/hide metrics in Segmentation/Research in table
+  * Option to display a specific metadata in column in Research table when breaking down by Campaigns
+  * Option to show/hide groups, new UI
+* Added Campaign list view
+  * Active campaigns table
+  * Completed campaigns table
+  * Campaign info panel
+* Added connection to the new Metadata API
+  * Filter picker for the Campaign dimension now consumes data from the Metadata API. It also restricts campaign results based on flight date
+* Click to sub-overview is now opened in new tab
+* Added tooltips with metric descriptions when hovering table header for new ad metrics
+* Added error logging for FE backend
+
+
+### Bugs/Improvements
+* Fixed design of paging in Overview/Report tables
+* Fixed bug where an error message would appear when sorting by ascending in Content tables in overviews/reports. Now a message will appear which allows the user to view the data even though its zero
+* Fixed bug where bar chart(horizontal) didn’t display labels properly
+* Fixed bookmark bugs which caused the bookmarks not to load correctly
+* Fixed tooltip display where to many metrics would break the design
+* Various table display improvements
+  * Table scrolls horizontally when there are too many columns displayed
+  * Table headers dont overflow when metric names are too wide
+* Fixed min-width problem when resizing Overviews/Reports.
+
+----
+
 ## 107 release
 1 - 31 Aug, 2018
 
