@@ -1,5 +1,85 @@
 # TVbeat Dashboard Release notes
 
+## 109.0.2 Hotfix
+7 Nov, 2018
+
+### Bugs/Improvements
+* Add option to disable "Export Subscriber IDs" in settings
+
+----
+
+## 109.0.1 Hotfix
+6 Nov, 2018
+
+### Bugs/Improvements
+* Add CPM metadata in campaign module
+* Daylight savings dates adds data points bug fix
+* Change staging domain URL
+* Fix multi-query table not displaying title
+
+----
+
+## 109 release
+1 Oct - 31 Oct, 2018
+
+### Features
+* Campaign module final improvements and fixes
+* New caching generator for overviews and campaigns
+
+### Bugs/Improvements
+* Opens sub-overview in new tab on click-through
+* Fixed bug when sorting table in ascending order a zero result error would display preventing the user to use the table
+* Added option to add position numbers in xAxis labels for TOP charts in widgets
+* Fixed misaligned rows in Indexing when dimension value titles were too long
+* Table improvements
+   * First column in tables is now fixed when scrolling horizontally
+* Added option to display Pie chart with legend on the right to improve the UI
+* Fixed several unit tests
+* Fixed bug where bookmark didn't save or recall the correct date range. Now custom ranges are properly saved and recalled as well as predefined ones(ex.: Last 7 Days) which are relative.
+* Improved how label on bar chart(horizontal) display
+* Fixed: Hide "no data available in table" while loader is turned on
+
+----
+
+## 108.0.4 Hotfix
+13 Oct, 2018
+
+### Bugs/Improvements
+* Fixed overview caching problem where it didn't produce correct audience structure in queries
+* Fixed multiquery table overflow
+
+----
+
+## 108.0.3 Hotfix
+12 Oct, 2018
+
+### Bugs/Improvements
+* Fixed campaign report caching - update date range adjustment for active campaigns in campaign query generator
+* Fixed overview caching - when using custom date ranges the overview query generator would create wrong date range in the query
+
+----
+
+## 108.0.2 Hotfix
+11 Oct, 2018
+
+### Bugs/Improvements
+* Fixed "Add/Sort Metrics" bug where it messed up the order if metrics were renamed
+* Added new metrics
+* Fixed "Go to report" link in campaign info window
+* Fixed bug where Campaigns in filter picker wouldn't populate on first load
+
+----
+
+## 108.0.1 Hotfix
+10 Oct, 2018
+
+### Bugs/Improvements
+* Remove Caching for campaigns
+* Add Generation checks for metadata
+* Fix the Campaign no loading on first time in filter picker
+
+----
+
 ## 108 release
 1 Sep - 9 Oct, 2018
 
