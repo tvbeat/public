@@ -27,14 +27,15 @@ It is calculated as: Total duration / Duration of period or emission
 
 ### **Rating% (RTG%)**
 Rating is calculated as a proportion of active devices within All devices. As base time unit is one minute, base unit of  rating is average minute rating, a number of devices tuned in to a given minute.
-
 It is calculated as: Total duration / Duration of period or emission / Universe
 
 ### **Total Duration (MIN.)**
 Is defined as the sum of durations of all Devices that have watched given content or interval.
 
 ### **Average Duration (MIN.)**
-Is defined as the average time that those devices that have watched the content or interval in question spent viewing it. It is calculated as:  "Total duration / Device Reach (#)"
+Is defined as the average time that those devices that have watched the content or interval in question spent viewing it. 
+It is calculated as:  "Total duration / Device Reach (#)"
 
 ### **Average Duration All**
-Is defined as the average time that all devices have spent watching the content or interval in question. It is calculated as: "Total duration / Universe (#)"
+Is defined as the average time that all devices have spent watching the content or interval in question. 
+It is calculated as: "Total duration / Universe (#)"
