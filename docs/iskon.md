@@ -37,7 +37,7 @@ given content or interval.
 
 ### **Average duration (min.)**
 Is defined as the average time that those that have watched the content or interval in
-question spent viewing it. 
+question spent viewing it.  
 It is calculated as:
 ``` Total duration / Subscribers (#) `
 
