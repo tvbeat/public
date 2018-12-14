@@ -46,6 +46,7 @@
 * Added date restriction to exclude campaigns before the Date restriction set in the Settings
 * Added FE support for Event domain datasets with a switcher for this mode in the Settings
 * Added “Hide Subs. ID export” option
+* (BETA) Operational reports for campaigns 
 
 ### Bugs/Improvements
 * Daylight savings bug was resolved and it now displays charts correctly when including those dates
