@@ -1,5 +1,95 @@
 # TVbeat Dashboard Release notes
 
+## 110.0.3 Hotfix
+14 Dec, 2018
+
+### Bugs/Improvements
+* Fix bug with loading campaigns in filter picker
+* Fix bug where metadata column in segmentation was not displaying
+
+----
+
+## 110.0.2 Hotfix
+12 Dec, 2018
+
+### Bugs/Improvements
+* Remove local cache bug
+* Fix problem with deleting datasets in client accounts
+* Improve cacher to crawl through all user groups in client account
+
+----
+
+## 110.0.1 Hotfix
+11 Dec, 2018
+
+### Bugs/Improvements
+* Fixed incorrect filters when switching between In-flight and Completed campaigns
+* Fixed FFDR tooltip not displaying
+* Set yesterday midnight as restriction in Campaign module
+
+----
+
+## 110 Release
+11 Dec, 2018
+
+### Features
+* Campaign view changes
+   * Added new metadata fields to Campaign view (Create date, FFDR, Excess Inventory, Primary Trafficker, Campaign status, Clash Codes)
+   * Changed sorting functionality by clicking on field names in table header.
+   * When scrolling the campaign table, the table header sticks on top
+   * When paging the table the view is automatically scrolled back on top
+   * Added two metadata filters (Campaign status, Primary trafficker)
+   * Added export to excel option
+   * Added tooltips when hovering over metrics/metadata in table header, with descriptions of each of them
+   * Added alert that notifies when the user if the campaign was booked to late(difference between create date and start date of campaign is less than 3 business days)
+* Added Time series table widget which allows the display of any breakdown vertically and horizontally by days/weeks/months
+* Added date restriction to exclude campaigns before the Date restriction set in the Settings
+* Added FE support for Event domain datasets with a switcher for this mode in the Settings
+* Added “Hide Subs. ID export” option
+
+### Bugs/Improvements
+* Daylight savings bug was resolved and it now displays charts correctly when including those dates
+* Fixed Forgot password bug where a it wouldn’t allow the user to reset the password if they were logged out
+* Fixed bug when displaying groups in segmentation/research it would not display the stacked bars correctly
+* Fixed bug when reseting failed exports
+* Fixed bug where the admin would not be able to delete a dataset within a client account
+
+
+----
+
+## 109.0.6 Hotfix
+7 Nov, 2018
+
+### Bugs/Improvements
+* Change metric descriptions for tooltips
+* Change Indexing limit to 700 to prevent query URLs from being too long
+
+----
+
+## 109.0.5 Hotfix
+7 Nov, 2018
+
+### Bugs/Improvements
+* Change CPM metadata field from cmpgn.cpt_net => cmpgn.cpt in campaign module
+
+----
+
+## 109.0.4 Hotfix
+7 Nov, 2018
+
+### Bugs/Improvements
+* Add new metrics tooltip descriptions
+
+----
+
+## 109.0.3 Hotfix
+7 Nov, 2018
+
+### Bugs/Improvements
+* Remove day light saving hack to support the new solution on the BE
+
+----
+
 ## 109.0.2 Hotfix
 7 Nov, 2018
 
