@@ -30,7 +30,7 @@
 ----
 
 ## 110 Release
-11 Dec, 2018
+1 Nov - 11 Dec, 2018
 
 ### Features
 * Campaign view changes
@@ -58,7 +58,7 @@
 ----
 
 ## 109.0.6 Hotfix
-7 Nov, 2018
+4 Dec, 2018
 
 ### Bugs/Improvements
 * Change metric descriptions for tooltips
@@ -67,7 +67,7 @@
 ----
 
 ## 109.0.5 Hotfix
-7 Nov, 2018
+15 Nov, 2018
 
 ### Bugs/Improvements
 * Change CPM metadata field from cmpgn.cpt_net => cmpgn.cpt in campaign module
@@ -75,7 +75,7 @@
 ----
 
 ## 109.0.4 Hotfix
-7 Nov, 2018
+14 Nov, 2018
 
 ### Bugs/Improvements
 * Add new metrics tooltip descriptions
@@ -83,7 +83,7 @@
 ----
 
 ## 109.0.3 Hotfix
-7 Nov, 2018
+12 Nov, 2018
 
 ### Bugs/Improvements
 * Remove day light saving hack to support the new solution on the BE
