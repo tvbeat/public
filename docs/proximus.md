@@ -22,8 +22,8 @@ Is number of Devices expressed as a percentage of All Devices
 Is defined as a fraction of rating of a specified timeslot/show/channel over total rating.
 
 ### **Rating (RTG)**
-Rating is calculated as a proportion of active devies within their relevant universe. As base time unit is one minute, base unit of rating is average minute rating, a number of devices tuned to a given minute.
-It is calculated as: Total duration / Duration of period or emission
+Rating is calculated as a proportion of active devices within their relevant universe. As base time unit is one minute, base unit of rating is average minute rating, a number of devices tuned to a given minute.
+It is calculated as: "Total duration / Duration of period or emission"
 
 ### **Rating% (RTG%)**
 Rating is calculated as a proportion of active devices within All devices. As base time unit is one minute, base unit of  rating is average minute rating, a number of devices tuned in to a given minute.
