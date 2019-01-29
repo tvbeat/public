@@ -1,5 +1,39 @@
 # TVbeat Dashboard Release notes
 
+## 111.0.1 Hotfix
+15 Dec, 2019
+
+### Bugs/Improvements
+* Fix issue where audience segment gets duplicated on multiple save button clicks
+* Fix bug where delete/edit buttons in audience builder list were hidden
+
+----
+
+## 111 Release
+14 Jan, 2019
+
+### Features
+* Fill rate calculation improvement
+* Time series table widget
+* Enable local sorting(sorting asc/desc is limited to first 5000 items returned) to improve loading speed for tables and charts
+* Operational reports for Campaigns
+
+### Bugs/Improvements
+* Fixed bug where hideZeroItems would not work for time series table widget
+* Fixed bug where sometimes the metrics text in exported excel files would duplicate
+* Fixed bug where when exporting Content to excel, airtime values would not be generated and displayed properly
+* Improved display of max width of first column of a tables
+* Fixed bug where Export option on report widget disappeared when unchecking Segmentation in settings
+* Update campaign metadata fields definitions
+
+----
+
+## 110.0.4 Hotfix
+20 Dec, 2018
+Fixed rule that caused that views that were unchecked in settings appeared in Product menu
+
+----
+
 ## 110.0.3 Hotfix
 14 Dec, 2018
 
